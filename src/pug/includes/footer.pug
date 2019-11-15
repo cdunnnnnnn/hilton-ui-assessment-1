@@ -1,0 +1,11 @@
+//- footer.pug
+footer(class='footer')
+  - const currYear = (new Date()).getFullYear();
+  p(class='footer__copyright') copyright &copy; #{currYear}
+  ul(class='footer__social' role='navigation' aria-label='Follow us nav')
+    li
+      a(href="#"): img(src='./img/facebook.svg' alt="Follow us on Facebook")
+    li
+      a(href="#"): img(src='./img/twitter.svg' alt="Follow us on Twitter")
+    li
+      a(href="#"): img(src='./img/linkedin.svg' alt="Follow us on LinkedIn")

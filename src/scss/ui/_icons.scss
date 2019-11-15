@@ -1,0 +1,25 @@
+.arrow {
+  display: inline-block;
+  border: solid;
+  margin: 3px;
+  padding: 3px;
+}
+
+.arrow--right {
+  border-width: 0 3px 3px 0;
+  transform: rotate(-45deg);
+}
+
+.arrow--left {
+  border-width: 0 3px 3px 0;
+  transform: rotate(135deg);
+}
+
+.arrow--gray {
+  color: #434343;
+  box-shadow: 1px 1px 1px rgba($white, 0.35);
+}
+
+.arrow--white {
+  color: #fff;
+}

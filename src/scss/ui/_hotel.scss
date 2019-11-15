@@ -1,0 +1,39 @@
+.hotel {
+  width: 100%;
+}
+
+.hotel__img {
+  border: 3px solid $white;
+  box-shadow: 2px 4px 2px 4px rgba($black, 0.25);
+}
+
+.hotel__address {
+  font-size: 14px;
+  font-style: normal;
+
+  @media #{$sm} {
+    font-size: 28px;
+  }
+}
+
+.hotel__name {
+  color: $white;
+  font-size: 18px;
+  padding: 8px 0 6px;
+
+  @media #{$sm} {
+    font-size: 36px;
+    padding: 24px 0 12px;
+  }
+}
+
+.hotel__address span {
+  display: block;
+  color: #9fbdd8;
+  padding-bottom: 4px;
+}
+
+.hotel__address span a {
+  color: $white;
+  text-decoration: underline;
+}

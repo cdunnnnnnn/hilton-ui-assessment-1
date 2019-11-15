@@ -1,7 +1,4 @@
 .footer {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
   max-height: 36px;
   color: $white;
   font-size: 10px;
@@ -15,6 +12,12 @@
     border-top-width: 2px;
     padding: 24px;
   }
+}
+
+.footer__inner {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .footer__copyright {
